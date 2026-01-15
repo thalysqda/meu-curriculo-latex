@@ -1,28 +1,28 @@
-# My LaTeX CV
+# Currículo em LaTeX - Engenharia da Computação
 
-This is a modified version of [my-latex-cv](https://github.com/PrimozGodec/my-latex-cv) by [Primož Godec](https://github.com/PrimozGodec). The changes include:
+Este repositório contém o código-fonte do meu currículo profissional, desenvolvido em **LaTeX** utilizando o editor **Overleaf**. O objetivo é manter um histórico versionado das minhas competências técnicas, experiências e projetos acadêmicos.
 
- 1. A Summary / Objective section
- 2. Keywords for software stack used at jobs
- 3. Thesis for educational degress
- 4. Removed Date of Birth to include a personal website
- 5. Other Skills section replaced by an Other Projects section
- 6. Shortened the space between sections
- 7. Shortened the page margins to 1 cm
+## 👨‍💻 Perfil Profissional
+* [cite_start]**Nome:** Thalys De Araujo Silva [cite: 1, 2]
+* [cite_start]**Formação:** Bacharelado em Engenharia da Computação - IFMA Campus Santa Inês [cite: 36, 37]
+* [cite_start]**Áreas de Interesse:** Desenvolvimento de Software, Visão Computacional e Sistemas Embarcados [cite: 4, 7, 42, 43]
 
-### Compiling the CV
+## 🛠️ Tecnologias Principais
+* [cite_start]**Linguagens:** Python, Java, JavaScript, C/C++ e SQL [cite: 30, 31]
+* [cite_start]**Ferramentas e Frameworks:** OpenCV (LBPH), Git/GitHub, VS Code e Flask [cite: 32, 33, 34]
+* [cite_start]**Front-end:** HTML5 e CSS3 [cite: 28, 39]
 
-There are two possible ways to edit and compile the CV. I suggest using the Overleaf.
+## 🚀 Projetos em Destaque
+* [cite_start]**Reconhecimento Facial:** Implementação do algoritmo **LBPH** com OpenCV para identificação facial em tempo real[cite: 21, 23, 24].
+* [cite_start]**Chatbot com Regras:** Assistente virtual para automação de atendimentos utilizando lógica de fluxos[cite: 17, 19, 20].
+* [cite_start]**Estágio em TI:** Suporte técnico e manutenção de infraestrutura na Faculdade Unibras[cite: 10, 11, 12, 13].
 
-#### Use Overleaf online editor (Preferred)
+## ⚙️ Como Compilar
+Este projeto foi configurado para ser compilado no **Overleaf** utilizando o motor **XeLaTeX**.
 
-You can also use [Overleaf](https://www.overleaf.com/) online editor. You just open a new project and copy files from this repository there. Everything should work there just set the project's compiler to XeLaTeX.
+1. Faça o upload dos arquivos `.tex` e `.cls` para um novo projeto no Overleaf.
+2. Certifique-se de que o compilador nas configurações do projeto está definido como **XeLaTeX**.
+3. Clique em **Recompile**.
 
-#### Compile localy
-You will need XeLaTex (pdfLaTeX will not work because of the different fonts used). If you do not have `xelatex` command already working you need to install it following [instructions](http://www.texts.io/support/).
-
-You latex file can be compiled the following way:
-```
-xelatex example.tex
-```
-If you get an issue that says FontAwesome is missing. You can solve it with installing FontAwesome font in you system fonts - you can get it [here](https://github.com/h5p/font-awesome ) 
+---
+*Atualizado em Janeiro de 2026.*
